@@ -56,7 +56,79 @@
 <br id="main_id">
 <br id="about_me">
 
-<!-- Data List -->
+<br>
+<hr>
+
+<!-- Form+Table -->
+<table border="1" width="80%" height="300px">
+    <tbody>
+        <tr>
+            <td><label for="uname">Adınız</label></td>
+            <td><input type="text" 
+                id="uname" 
+                required autofocus 
+                title="Adınız" placeholder="...">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="umail">Mailiniz</label></td>
+            <td><input type="email" 
+                id="umail" 
+                title="Mailiniz" placeholder="...">
+            </td>
+        </tr>
+
+<!-- Table -->
+<table border="1" width="80%" height="300px">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Mail</th>
+        </tr>
+    </thead>
+    <hr>
+    <hr>
+    <tbody>
+    <tr>
+        <td>1733</td>
+        <td>Çağdaş</td>
+        <td>Güneş</td>
+        <td>cgdsgns@outlook.com</td>
+    </tr>
+    <tr>
+        <td>869</td>
+        <td>Yasemin</td>
+        <td>Türkkan</td>
+        <td>ysmntrkkn@outlook.com</td>
+    </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="4">&copy; Bütün Hakları Saklıdır</th>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- Form -->
+<form action="#!" method="get" autocomplete="on" target="_blank">
+    <label for="uname">Adınız</label>
+    <input type="text" 
+    id="uname" 
+    required autofocus 
+    title="Adınız" placeholder="..."><br>
+
+    <label for="umail">Mailiniz</label>
+    <input type="email" 
+    id="umail" 
+    title="Mailiniz" placeholder="...">
+</form>
+<input type="submit" value="Gönder">
+<button type="reset">Temizle</button>
+<br>
+
+<!-- DataList -->
 <input type="text" list="keywords" name="uçankuş">
 <datalist id="keywords">
     <option value="javascript"></option>
